@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import <SystemConfiguration/SystemConfiguration.h>
+#ifndef TARGET_OS_MAC
 #import <MobileCoreServices/MobileCoreServices.h>
+#endif
 #import "AFNetworking.h"
 
 @interface ARDOAuthRequestSerializer : AFHTTPRequestSerializer

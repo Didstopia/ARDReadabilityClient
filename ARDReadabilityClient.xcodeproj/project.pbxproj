@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073459261AF7A7EA00B97313 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073459251AF7A7EA00B97313 /* AppDelegate.m */; };
+		073459281AF7A7EA00B97313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 073459271AF7A7EA00B97313 /* main.m */; };
+		0734592B1AF7A7EA00B97313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0734592A1AF7A7EA00B97313 /* ViewController.m */; };
+		0734592D1AF7A7EA00B97313 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0734592C1AF7A7EA00B97313 /* Images.xcassets */; };
+		073459301AF7A7EA00B97313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0734592E1AF7A7EA00B97313 /* Main.storyboard */; };
+		0734593C1AF7A7EA00B97313 /* ARDReadabilityClient_OSXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0734593B1AF7A7EA00B97313 /* ARDReadabilityClient_OSXTests.m */; };
 		4F000466188C20AA001D5982 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F000465188C20AA001D5982 /* XCTest.framework */; };
 		4F000467188C20AB001D5982 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F000457188C20AA001D5982 /* Foundation.framework */; };
 		4F000472188C20AB001D5982 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4F000470188C20AB001D5982 /* InfoPlist.strings */; };
@@ -29,6 +35,7 @@
 		4F2350A6188E706A0007122D /* AllDeletedBookmarks1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F2350A3188E6F920007122D /* AllDeletedBookmarks1.txt */; };
 		4F2350A7188E706A0007122D /* AllDeletedBookmarks2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F2350A4188E6F920007122D /* AllDeletedBookmarks2.txt */; };
 		4F2350A8188E706A0007122D /* AllDeletedBookmarks3.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4F2350A5188E6F920007122D /* AllDeletedBookmarks3.txt */; };
+		4F2500A23072DEC59FE14409 /* libPods-osx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C979862D8DB2CC0F8D162F /* libPods-osx.a */; };
 		4F80EFB118FBB2EA00C72C84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9384F8018F7EA4F003E34A1 /* GTMNSString+HTML.m */; };
 		4F80EFB218FBB2EA00C72C84 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9384F8018F7EA4F003E34A1 /* GTMNSString+HTML.m */; };
 		4FA1D91E188FCCD2005E0A0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F000457188C20AA001D5982 /* Foundation.framework */; };
@@ -81,17 +88,19 @@
 		4FC902AC190D954B00ABDD57 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3918FF1B0A0072CF16 /* AFURLSessionManager.m */; };
 		4FC906F0188FE9AF003577B9 /* UIViewController+ARDErrorAllert.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC906EF188FE9AF003577B9 /* UIViewController+ARDErrorAllert.m */; };
 		4FC906F3188FEC2F003577B9 /* ARDArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC906F2188FEC2F003577B9 /* ARDArticleViewController.m */; };
-		4FFA0C3A18FF1B0A0072CF16 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C2818FF1B0A0072CF16 /* AFHTTPRequestOperation.m */; };
-		4FFA0C3B18FF1B0A0072CF16 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C2A18FF1B0A0072CF16 /* AFHTTPRequestOperationManager.m */; };
-		4FFA0C3C18FF1B0A0072CF16 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C2C18FF1B0A0072CF16 /* AFHTTPSessionManager.m */; };
-		4FFA0C3D18FF1B0A0072CF16 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C2F18FF1B0A0072CF16 /* AFNetworkReachabilityManager.m */; };
-		4FFA0C3E18FF1B0A0072CF16 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3118FF1B0A0072CF16 /* AFSecurityPolicy.m */; };
-		4FFA0C3F18FF1B0A0072CF16 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3318FF1B0A0072CF16 /* AFURLConnectionOperation.m */; };
-		4FFA0C4018FF1B0A0072CF16 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3518FF1B0A0072CF16 /* AFURLRequestSerialization.m */; };
-		4FFA0C4118FF1B0A0072CF16 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3718FF1B0A0072CF16 /* AFURLResponseSerialization.m */; };
-		4FFA0C4218FF1B0A0072CF16 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA0C3918FF1B0A0072CF16 /* AFURLSessionManager.m */; };
 		C9384F8118F7EA4F003E34A1 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = C9384F8018F7EA4F003E34A1 /* GTMNSString+HTML.m */; };
+		E06AC93EB8DB6A10DCDDFB68 /* libPods-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 069D5FB2C40ED81BDB65D275 /* libPods-ios.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		073459361AF7A7EA00B97313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F00044C188C20AA001D5982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0734591F1AF7A7EA00B97313;
+			remoteInfo = "ARDReadabilityClient-OSX";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		4FA1D91B188FCCD2005E0A0C /* CopyFiles */ = {
@@ -106,6 +115,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		069D5FB2C40ED81BDB65D275 /* libPods-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		073459201AF7A7EA00B97313 /* ARDReadabilityClient-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ARDReadabilityClient-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		073459231AF7A7EA00B97313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073459241AF7A7EA00B97313 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		073459251AF7A7EA00B97313 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		073459271AF7A7EA00B97313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		073459291AF7A7EA00B97313 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0734592A1AF7A7EA00B97313 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0734592C1AF7A7EA00B97313 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0734592F1AF7A7EA00B97313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		073459351AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ARDReadabilityClient-OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0734593A1AF7A7EA00B97313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0734593B1AF7A7EA00B97313 /* ARDReadabilityClient_OSXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDReadabilityClient_OSXTests.m; sourceTree = "<group>"; };
+		0DF925DF00BF0330A9D942B4 /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		4F000457188C20AA001D5982 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4F000464188C20AA001D5982 /* ARDReadabilityClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDReadabilityClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F000465188C20AA001D5982 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -190,11 +213,30 @@
 		4FFA0C3718FF1B0A0072CF16 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		4FFA0C3818FF1B0A0072CF16 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		4FFA0C3918FF1B0A0072CF16 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		657A7CEDDA75B07A59BCB6F1 /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		94C979862D8DB2CC0F8D162F /* libPods-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9384F7F18F7EA4F003E34A1 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
 		C9384F8018F7EA4F003E34A1 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		D203FDBE0AD5709BACD55F8B /* Pods-osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.release.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.release.xcconfig"; sourceTree = "<group>"; };
+		F88D11F0617B8D5F2E238B36 /* Pods-osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-osx.debug.xcconfig"; path = "Pods/Target Support Files/Pods-osx/Pods-osx.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0734591D1AF7A7EA00B97313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2500A23072DEC59FE14409 /* libPods-osx.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073459321AF7A7EA00B97313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F000461188C20AA001D5982 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +253,7 @@
 				4F0ECA0E189150D20075C345 /* SystemConfiguration.framework in Frameworks */,
 				4F0ECA0C189150C20075C345 /* MobileCoreServices.framework in Frameworks */,
 				4FA1D91E188FCCD2005E0A0C /* Foundation.framework in Frameworks */,
+				E06AC93EB8DB6A10DCDDFB68 /* libPods-ios.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +270,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073459211AF7A7EA00B97313 /* ARDReadabilityClient-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				073459241AF7A7EA00B97313 /* AppDelegate.h */,
+				073459251AF7A7EA00B97313 /* AppDelegate.m */,
+				073459291AF7A7EA00B97313 /* ViewController.h */,
+				0734592A1AF7A7EA00B97313 /* ViewController.m */,
+				0734592C1AF7A7EA00B97313 /* Images.xcassets */,
+				0734592E1AF7A7EA00B97313 /* Main.storyboard */,
+				073459221AF7A7EA00B97313 /* Supporting Files */,
+			);
+			path = "ARDReadabilityClient-OSX";
+			sourceTree = "<group>";
+		};
+		073459221AF7A7EA00B97313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				073459231AF7A7EA00B97313 /* Info.plist */,
+				073459271AF7A7EA00B97313 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		073459381AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				0734593B1AF7A7EA00B97313 /* ARDReadabilityClient_OSXTests.m */,
+				073459391AF7A7EA00B97313 /* Supporting Files */,
+			);
+			path = "ARDReadabilityClient-OSXTests";
+			sourceTree = "<group>";
+		};
+		073459391AF7A7EA00B97313 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0734593A1AF7A7EA00B97313 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		4F00044B188C20AA001D5982 = {
 			isa = PBXGroup;
 			children = (
@@ -235,8 +318,11 @@
 				4F000459188C20AA001D5982 /* ARDReadabilityClient */,
 				4F00046D188C20AB001D5982 /* ARDReadabilityClientTests */,
 				4FA1D960188FCF88005E0A0C /* ARDReadabilityClientExample */,
+				073459211AF7A7EA00B97313 /* ARDReadabilityClient-OSX */,
+				073459381AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests */,
 				4F000456188C20AA001D5982 /* Frameworks */,
 				4F000455188C20AA001D5982 /* Products */,
+				7732BFBB10614605C8251C79 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,6 +332,8 @@
 				4F000464188C20AA001D5982 /* ARDReadabilityClientTests.xctest */,
 				4FA1D91D188FCCD2005E0A0C /* libARDReadabilityClient.a */,
 				4FA1D95B188FCF88005E0A0C /* ARDReadabilityClientExample.app */,
+				073459201AF7A7EA00B97313 /* ARDReadabilityClient-OSX.app */,
+				073459351AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -259,6 +347,8 @@
 				4F000465188C20AA001D5982 /* XCTest.framework */,
 				4FA1D8FB188FCCAB005E0A0C /* UIKit.framework */,
 				4FA1D95D188FCF88005E0A0C /* CoreGraphics.framework */,
+				069D5FB2C40ED81BDB65D275 /* libPods-ios.a */,
+				94C979862D8DB2CC0F8D162F /* libPods-osx.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -401,9 +491,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7732BFBB10614605C8251C79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				657A7CEDDA75B07A59BCB6F1 /* Pods-ios.debug.xcconfig */,
+				0DF925DF00BF0330A9D942B4 /* Pods-ios.release.xcconfig */,
+				F88D11F0617B8D5F2E238B36 /* Pods-osx.debug.xcconfig */,
+				D203FDBE0AD5709BACD55F8B /* Pods-osx.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0734591F1AF7A7EA00B97313 /* ARDReadabilityClient-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073459411AF7A7EA00B97313 /* Build configuration list for PBXNativeTarget "ARDReadabilityClient-OSX" */;
+			buildPhases = (
+				2E24DCB96954310F8E3AD2BE /* Check Pods Manifest.lock */,
+				0734591C1AF7A7EA00B97313 /* Sources */,
+				0734591D1AF7A7EA00B97313 /* Frameworks */,
+				0734591E1AF7A7EA00B97313 /* Resources */,
+				B87D55A8DFC6D9CBB1FF9389 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ARDReadabilityClient-OSX";
+			productName = "ARDReadabilityClient-OSX";
+			productReference = 073459201AF7A7EA00B97313 /* ARDReadabilityClient-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		073459341AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073459421AF7A7EA00B97313 /* Build configuration list for PBXNativeTarget "ARDReadabilityClient-OSXTests" */;
+			buildPhases = (
+				073459311AF7A7EA00B97313 /* Sources */,
+				073459321AF7A7EA00B97313 /* Frameworks */,
+				073459331AF7A7EA00B97313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073459371AF7A7EA00B97313 /* PBXTargetDependency */,
+			);
+			name = "ARDReadabilityClient-OSXTests";
+			productName = "ARDReadabilityClient-OSXTests";
+			productReference = 073459351AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		4F000463188C20AA001D5982 /* ARDReadabilityClientTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F00047A188C20AB001D5982 /* Build configuration list for PBXNativeTarget "ARDReadabilityClientTests" */;
@@ -425,9 +563,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FA1D939188FCCD2005E0A0C /* Build configuration list for PBXNativeTarget "ARDReadabilityClient" */;
 			buildPhases = (
+				4FAFEF5E5949D92CE13C55CA /* Check Pods Manifest.lock */,
 				4FA1D919188FCCD2005E0A0C /* Sources */,
 				4FA1D91A188FCCD2005E0A0C /* Frameworks */,
 				4FA1D91B188FCCD2005E0A0C /* CopyFiles */,
+				AFB5C335878C1786FBE52FE9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -463,6 +603,15 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = ru.slabko;
+				TargetAttributes = {
+					0734591F1AF7A7EA00B97313 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					073459341AF7A7EA00B97313 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0734591F1AF7A7EA00B97313;
+					};
+				};
 			};
 			buildConfigurationList = 4F00044F188C20AA001D5982 /* Build configuration list for PBXProject "ARDReadabilityClient" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -480,11 +629,29 @@
 				4FA1D91C188FCCD2005E0A0C /* ARDReadabilityClient */,
 				4F000463188C20AA001D5982 /* ARDReadabilityClientTests */,
 				4FA1D95A188FCF88005E0A0C /* ARDReadabilityClientExample */,
+				0734591F1AF7A7EA00B97313 /* ARDReadabilityClient-OSX */,
+				073459341AF7A7EA00B97313 /* ARDReadabilityClient-OSXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0734591E1AF7A7EA00B97313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0734592D1AF7A7EA00B97313 /* Images.xcassets in Resources */,
+				073459301AF7A7EA00B97313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073459331AF7A7EA00B97313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F000462188C20AA001D5982 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -515,7 +682,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E24DCB96954310F8E3AD2BE /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAFEF5E5949D92CE13C55CA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB5C335878C1786FBE52FE9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B87D55A8DFC6D9CBB1FF9389 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-osx/Pods-osx-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		0734591C1AF7A7EA00B97313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0734592B1AF7A7EA00B97313 /* ViewController.m in Sources */,
+				073459281AF7A7EA00B97313 /* main.m in Sources */,
+				073459261AF7A7EA00B97313 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073459311AF7A7EA00B97313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0734593C1AF7A7EA00B97313 /* ARDReadabilityClient_OSXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4F000460188C20AA001D5982 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -553,21 +801,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FFA0C4218FF1B0A0072CF16 /* AFURLSessionManager.m in Sources */,
 				4F10244F1908243400E96D7D /* ARDOAuthRequestSerializer.m in Sources */,
 				C9384F8118F7EA4F003E34A1 /* GTMNSString+HTML.m in Sources */,
-				4FFA0C3D18FF1B0A0072CF16 /* AFNetworkReachabilityManager.m in Sources */,
 				4FA1D955188FCEDD005E0A0C /* NSString+ARDRegularExpression.m in Sources */,
-				4FFA0C3F18FF1B0A0072CF16 /* AFURLConnectionOperation.m in Sources */,
-				4FFA0C3C18FF1B0A0072CF16 /* AFHTTPSessionManager.m in Sources */,
-				4FFA0C4018FF1B0A0072CF16 /* AFURLRequestSerialization.m in Sources */,
 				4FA1D951188FCEDD005E0A0C /* ARDReadabilityClient.m in Sources */,
 				4FA1D953188FCEDD005E0A0C /* ARDReadabilityBookmark.m in Sources */,
 				4FA1D954188FCEDD005E0A0C /* ARDReadabilityDataFormatters.m in Sources */,
-				4FFA0C3B18FF1B0A0072CF16 /* AFHTTPRequestOperationManager.m in Sources */,
-				4FFA0C3E18FF1B0A0072CF16 /* AFSecurityPolicy.m in Sources */,
-				4FFA0C4118FF1B0A0072CF16 /* AFURLResponseSerialization.m in Sources */,
-				4FFA0C3A18FF1B0A0072CF16 /* AFHTTPRequestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,7 +840,23 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		073459371AF7A7EA00B97313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0734591F1AF7A7EA00B97313 /* ARDReadabilityClient-OSX */;
+			targetProxy = 073459361AF7A7EA00B97313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		0734592E1AF7A7EA00B97313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0734592F1AF7A7EA00B97313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		4F000470188C20AB001D5982 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -629,6 +884,110 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		0734593D1AF7A7EA00B97313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F88D11F0617B8D5F2E238B36 /* Pods-osx.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ARDReadabilityClient-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0734593E1AF7A7EA00B97313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D203FDBE0AD5709BACD55F8B /* Pods-osx.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ARDReadabilityClient-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0734593F1AF7A7EA00B97313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ARDReadabilityClient-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDReadabilityClient-OSX.app/Contents/MacOS/ARDReadabilityClient-OSX";
+			};
+			name = Debug;
+		};
+		073459401AF7A7EA00B97313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "ARDReadabilityClient-OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDReadabilityClient-OSX.app/Contents/MacOS/ARDReadabilityClient-OSX";
+			};
+			name = Release;
+		};
 		4F000475188C20AB001D5982 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -741,6 +1100,7 @@
 		};
 		4FA1D93A188FCCD2005E0A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 657A7CEDDA75B07A59BCB6F1 /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/ARDReadabilityClient.dst;
@@ -750,7 +1110,6 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -758,12 +1117,12 @@
 		};
 		4FA1D93B188FCCD2005E0A0C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF925DF00BF0330A9D942B4 /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				DSTROOT = /tmp/ARDReadabilityClient.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Supporting Files/ARDReadabilityClient-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -806,6 +1165,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		073459411AF7A7EA00B97313 /* Build configuration list for PBXNativeTarget "ARDReadabilityClient-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0734593D1AF7A7EA00B97313 /* Debug */,
+				0734593E1AF7A7EA00B97313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073459421AF7A7EA00B97313 /* Build configuration list for PBXNativeTarget "ARDReadabilityClient-OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0734593F1AF7A7EA00B97313 /* Debug */,
+				073459401AF7A7EA00B97313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4F00044F188C20AA001D5982 /* Build configuration list for PBXProject "ARDReadabilityClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
