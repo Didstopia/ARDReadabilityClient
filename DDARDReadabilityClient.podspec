@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
-  s.name         = "ARDReadabilityClient"
+  s.name         = "DDARDReadabilityClient"
   s.version      = "0.3"
   s.summary      = "An iOS library for Readability.com."
-  s.homepage     = "https://github.com/slabko/ARDReadabilityClient"
+  s.homepage     = "https://github.com/didstopia/DDARDReadabilityClient"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Andrew Slabko" => "andrew@slabko.com" }
   s.source       = { 
-    :git => "https://github.com/Didstopia/ARDReadabilityClient.git", 
+    :git => "https://github.com/Didstopia/DDARDReadabilityClient.git", 
     :tag => "0.3"
   }
 
